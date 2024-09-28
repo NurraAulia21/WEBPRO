@@ -1,0 +1,88 @@
+<!DOCTYPE html> <!-- tag awal HTML yang mendeklarasikan tipe dokumen yang digunakan adalah HTML -->
+<head> <!-- tag yang berisi metadata mengenai dokumen HTML ini (contoh: title, style, script, dll)-->
+    <title>Nurra Aulia Saffana_1303223134_IT4602_TP MOD 3 webPro</title> <!-- tag untuk menamai judul dari dokumen ini -->
+</head> <!-- tag penutup head -->
+<body> <!-- tag yang berisi isi atau konten dokumen ini  -->
+    <h1>Profil Pribadi</h1> <!-- tag yang mendefinisikan head atau subject penting dri dokumen ini -->
+    <div> <!-- tag yang mendefinisikan begian atau divisi dalam dokumen 
+    agar memudahkan untuk dimanipulasi menggunakan css/javascript-->
+        <table> <!-- tag untuk membuat tabel -->
+            <tr> <!-- tag untuk membuat baris dari tabel -->
+                <th>Foto Profil</th> <!-- tag untuk membuat header/judul dari kolom tabel -->
+                <th>Video Perkenalan</th>
+            </tr> <!-- tag penutup baris tabel -->
+            <tr> <!-- tag untuk membuat bari tabel baru -->
+                <td> <!-- tag untuk membuat kolom pada tabel -->
+                    <img src="Nuy1.jpg" width="200"> <!-- tag untuk memasukkan gambar di dokumen, 
+                    yang bersumber dari "Nuy1.jpg", dan lebar 200 pixels-->
+                </td>
+                <td>
+                    <video src="WinBre.mp4" type="video/mp4" width="475" controls></video> 
+                    <!-- tag untuk memasukkan video, yang bersumber dari "WinBre.mp4", dengan lebar 475 pixels, 
+                    tipenya video/mp4, dan dan atribut controls agar videonya dapat distart, pause, dll -->
+                </td>
+            </tr>
+        </table> <!-- tag penutup tabel -->
+        
+        <h2>Tentang Saya</h2> <!-- tag untuk mendefinisikan sub-subject yang lebih kecil dari h1 -->
+        <p>Halo! Saya adalah seorang pengembang web antusias dengan passion di bidang teknologi dan desain kreatif.</p> 
+        <!-- untuk membuat sebuah paragraph -->
+        
+        <h2>Keterampilan</h2>
+        <table>
+            <tr>
+                <th>Keterampilan</th>
+                <th>Tingkat</th>
+            </tr>
+            <tr>
+                <td>HTML CSS</td>
+                <td>Mahir</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Menengah</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Pemula</td>
+            </tr>
+        </table>
+
+        <h2>Hubungi Saya</h2>
+        <form> <!-- tag untuk membuat form yang dapat diisi oleh user -->
+            <table> <!-- tag tabel lagi untuk membuat tabel agar form terlihat lebih rapi -->
+                <tr>
+                    <td>Nama: </td>
+                    <td>
+                        <input type="text" name="Nama"> 
+                        <!-- tag untuk membuat input yang dapat diisi dengan nama user, memiliki atribut 
+                         type yag berarti tipenya teks biasa, name yang menentukan nama dari si element input  -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td>
+                        <input type="text" name="Email"> <!-- sama seperti input nama -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pesan: </td>
+                    <td></td>
+                </tr>
+            </table>
+            <textarea name="komen" cols="20" rows="4"></textarea> <br> <!-- br, tag untuk membuat baris baru -->
+            <!-- tag input untuk membuat text area, memiliki atribut name yang menentukan nama dari 
+            inputnya adalah "komen", cols rows yang berarti memiliki lebar 20 dan 4 baris -->
+            <button type="submit" name="Kirim">Kirim Pesan</button> 
+            <!-- tag untuk membuat tombol, atribut type, berarti tipe tombolnya untuk submit 
+            data dari form, name berarti nama tombolnya "Kirim" -->
+        </form> <!-- tag penutup form -->
+        
+        <h2>Media Sosial:</h2> 
+        <a href="https://www.linkedin.com/in/nurra-as-bba54b295/">Linkedln</a> | 
+        <a href="https://github.com/NurraAulia21">Github</a> | 
+        <a href="https://www.instagram.com/nurrato_21/">Instagram</a>
+        <!-- tag untuk membuat link yang akan menuju pada alamat tersebut -->
+    </div> <!-- tag penutup div/section/bagian -->
+</body> <!-- tag penutup body/isi dari dokumen ini -->
+</html> <!-- tag penutup dokumen HTML ini -->
