@@ -1,0 +1,52 @@
+body{
+    background: url(wbk01.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.loginbox{
+    font-family: Arial;
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+    height: 250px;
+    margin-top: 180px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 30px;
+}
+.login{
+    font-size: 16px;
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    border: 0;
+    border-bottom: 3px solid #dddddd;
+}
+.login:hover{
+    cursor: pointer;
+    border-bottom: 3px solid #022c9f;
+}
+.login:focus{
+    border-radius: 5px;
+    background-color: #ffd600;
+    border-bottom: 3px solid #022c9f;
+}
+.butlog{
+    background-color: #ffd600;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 70px;
+    height: 40px;   
+}
+.butlog:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #022c9f;
+}
