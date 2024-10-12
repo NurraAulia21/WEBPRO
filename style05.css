@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: #007bff !important;
+}
+.navbar a{
+    color: white !important;
+}
+.navbar a:hover{
+    color: white;
+}
+#navbarNav{
+    justify-content: right;
+}
+#navbarNav ul li a{
+    padding-left: 10px;
+}
+.loginbox{
+    margin-top: 40px;
+    background-color: white;
+    text-align: left;
+    border-radius: 5px;
+    width: 320px;
+    height: 360px;
+    box-shadow: 0px 0px 40px lightgray;
+}
+.loginbox .form-control, .form-label, .form-check{
+    width: 90%;
+    margin: 0px 16px 7px 16px;
+}
+.loginbox h3{
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.loginbox .forgot{
+    border-radius: 0px 0px 5px 5px;
+    background-color: whitesmoke;
+    height: 40px;
+    padding: 7px;
+    border-top: 1px solid darkgray;
+}
+.loginbox .forgot a{
+    text-decoration: none;
+}
+button{
+    margin: 0px 16px 0px 16px;
+    width: 90%;
+}
